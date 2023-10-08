@@ -1,0 +1,33 @@
+:root {
+  --mainColor: #1A2020;
+  --secondaryColor: #E4E4E4;
+  --accentColor: #68FF51;
+}
+
+body {
+  background-color: var(--mainColor);
+  display: flex;
+  margin: 0px;
+  flex-direction: column;
+}
+
+.intro {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  width: 100vw;
+  height: 80vh;
+}
+
+#intro-canvas {
+  width: 100vw;
+  height: 80vh;
+  
+}
+
+.intro-title {
+  position: absolute;
+  text-align: right;
+  width: calc(100vw - 50px);
+  top: 0;
+}
